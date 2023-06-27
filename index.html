@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Integrated website development" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,19 +21,17 @@
     <header>
       <nav>
         <a class="logo link" href="./index.html"
-          ><span class="logo-section">Web</span>Studio</a
+          >Web<span class="logo-section">Studio</span></a
         >
 
         <ul class="content list">
           <li>
-            <a class="content-list link" href="./index.html#studio">Studio</a>
+            <a class="content-list link" href="./index.html">Studio</a>
           </li>
           <li>
-            <a class="content-list link" href="./portfolio.html#portfolio"
-              >Portfolio</a
-            >
+            <a class="content-list link" href="./portfolio.html">Portfolio</a>
           </li>
-          <li><a class="content-list link" href="#contacts">Contacts</a></li>
+          <li><a class="content-list link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address id="contacts">
@@ -92,7 +94,7 @@
         </ul>
       </section>
       <!--Portfolio-->
-      <section>
+      <section class="portfolio">
         <h2 id="portfolio">What are we doing</h2>
         <ul class="list">
           <li>
@@ -124,7 +126,7 @@
       <!--our team
 -->
       <section class="team">
-        <h2>Our Team</h2>
+        <h2 class="our-team">Our Team</h2>
         <ul class="team-list list">
           <li class="team-item">
             <img
@@ -171,7 +173,7 @@
     </main>
     <footer class="bottom">
       <a class="bottom-logo link" href="./index.html"
-        ><span class="logo-section">Web</span>Studio</a
+        >Web<span class="bottom-logo-section">Studio</span></a
       >
       <p class="bottom-text">
         Increase the flow of customers and sales for your business with digital
