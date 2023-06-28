@@ -187,7 +187,7 @@ address {
 
 /** app */
 
-.app-sabtitle {
+.book-sabtitle {
   color: var(--primary-black-color);
   font-size: 20px;
   font-weight: 500;
@@ -195,37 +195,7 @@ address {
   letter-spacing: 0.02em;
 }
 
-.app-item-text {
-  color: var(--secondary-text-color);
-  font-size: var(--text-font-size);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/** marketing */
-.marketing-sabtitle {
-  color: var(--primary-black-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.marketing-item-text {
-  color: var(--secondary-text-color);
-  font-size: var(--text-font-size);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-/** web-site */
-.web-sabtitle {
-  color: var(--primary-black-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.web-item-text {
+.book-item-text {
   color: var(--secondary-text-color);
   font-size: var(--text-font-size);
   line-height: 1.5;
