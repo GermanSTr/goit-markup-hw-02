@@ -104,6 +104,7 @@ address {
 /** main-section-advantage */
 
 .advantages-subtitle {
+  color: var(--primary-black-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -126,6 +127,7 @@ address {
   background-color: #ffffff;
 }
 .team-subtitle {
+  color: var(--primary-black-color);
   text-align: center;
   font-size: 20px;
   font-weight: 500;
